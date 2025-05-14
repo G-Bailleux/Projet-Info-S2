@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.projetinfos2;
+package com.mycompany.projetinfos2.Gestion_Atelier;
 
 /**
  *

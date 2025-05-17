@@ -35,6 +35,10 @@ public class Produit {
         this.codeProduit = codeProduit;
         this.dProduit = dProduit;
     }
+    
+     // ---------------------------------------------------------------------
+    // ========================== Méthodes =================================
+    
     // ========================== Getters/Setters ==========================
 
     public String getCodeProduit() {
@@ -53,8 +57,7 @@ public class Produit {
         this.dProduit = dProduit;
     }
      
-    // ---------------------------------------------------------------------
-    // ========================== Méthodes =================================
+   
 
     // Affiche les informations du produit
     public void afficherProduit() {

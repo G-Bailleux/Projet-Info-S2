@@ -40,7 +40,7 @@ public class Operation {
         this.refEquipement = refEquipement;
         if (refEquipement instanceof Machine) {
             this.dureeOp = ((Machine) refEquipement).getDureeUtil();
-        } else if (refEquipement instanceof Poste) {
+        } else if(refEquipement instanceof Poste) {
             for (Machine m : ((Poste) refEquipement).getMachines()) {
                 this.dureeOp += m.getDureeUtil(); // Pour chaque machine m on récupère la durée d'utilisation
             }

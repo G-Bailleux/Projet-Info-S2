@@ -54,7 +54,7 @@ public class Machine extends Equipement {
 
     public Machine(String refMachine, String dMachine, float posX, float posY, float coutHoraire, float dureeUtil,
             EtatMachine etat) {
-        super(refMachine, dMachine);
+        super(refMachine, dMachine); // super appelle les constructeurs de la classe équipement pour ne pas avoir à recréer le code
         this.posX = posX;
         this.posY = posY;
         this.coutHoraire = coutHoraire;

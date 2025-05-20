@@ -4,6 +4,12 @@
  */
 package com.mycompany.projetinfos2.Classes;
 
+/**
+ *
+ * @author gbrlbllx
+ */
+
+
 public enum EtatMachine {
     // ========================== Attributs ================================
 

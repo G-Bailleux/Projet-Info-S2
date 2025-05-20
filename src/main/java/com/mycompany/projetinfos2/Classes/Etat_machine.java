@@ -4,10 +4,16 @@
  */
 package com.mycompany.projetinfos2.Classes;
 
-/**
- *
- * @author gbrlbllx
- */
-public class Etat_machine {
-    
+public enum EtatMachine {
+    // ========================== Attributs ================================
+
+    ARRET("Arrêt"),
+    DISPONIBLE("Disponible"),
+    OCCUPE("Occupé");
+
+    // ========================== Constructeurs ============================
+
+    EtatMachine(String etat) {
+    }
+
 }

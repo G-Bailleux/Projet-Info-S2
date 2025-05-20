@@ -2,6 +2,12 @@ package fr.insa.eymin.gestion_atelier.classes;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author gbrlbllx
+ */
+
+
 public class Gamme {
     // ========================== Attributs ================================
 

@@ -4,6 +4,11 @@
  */
 package com.mycompany.projetinfos2.Classes;
 
+/**
+ *
+ * @author gbrlbllx
+ */
+
 public abstract class Equipement {
     // ========================== Attributs ================================
 
